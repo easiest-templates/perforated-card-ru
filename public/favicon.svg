@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background - punch card style -->
+  <rect x="4" y="8" width="56" height="48" rx="2" fill="#F5E6D3" stroke="#8B7355" stroke-width="1.5"/>
+
+  <!-- Top corner cut (classic punch card) -->
+  <polygon points="4,8 12,8 4,16" fill="#fff"/>
+  <path d="M4,16 L12,8" stroke="#8B7355" stroke-width="1.5" fill="none"/>
+
+  <!-- Sprocket holes on left -->
+  <circle cx="10" cy="18" r="2" fill="#2D1810"/>
+  <circle cx="10" cy="26" r="2" fill="#2D1810"/>
+  <circle cx="10" cy="34" r="2" fill="#2D1810"/>
+  <circle cx="10" cy="42" r="2" fill="#2D1810"/>
+  <circle cx="10" cy="50" r="2" fill="#2D1810"/>
+
+  <!-- Punch holes pattern - representing "RC" -->
+  <!-- Row 1 -->
+  <rect x="18" y="16" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="24" y="16" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="36" y="16" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="48" y="16" width="3" height="4" rx="0.5" fill="#2D1810"/>
+
+  <!-- Row 2 -->
+  <rect x="18" y="24" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="30" y="24" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="42" y="24" width="3" height="4" rx="0.5" fill="#2D1810"/>
+
+  <!-- Row 3 -->
+  <rect x="18" y="32" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="24" y="32" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="36" y="32" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="48" y="32" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="54" y="32" width="3" height="4" rx="0.5" fill="#2D1810"/>
+
+  <!-- Row 4 -->
+  <rect x="18" y="40" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="30" y="40" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="42" y="40" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="54" y="40" width="3" height="4" rx="0.5" fill="#2D1810"/>
+
+  <!-- Row 5 -->
+  <rect x="18" y="48" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="24" y="48" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="36" y="48" width="3" height="4" rx="0.5" fill="#2D1810"/>
+  <rect x="48" y="48" width="3" height="4" rx="0.5" fill="#2D1810"/>
+
+  <!-- Paper texture lines -->
+  <line x1="4" y1="20" x2="60" y2="20" stroke="#D4C4B0" stroke-width="0.3"/>
+  <line x1="4" y1="28" x2="60" y2="28" stroke="#D4C4B0" stroke-width="0.3"/>
+  <line x1="4" y1="36" x2="60" y2="36" stroke="#D4C4B0" stroke-width="0.3"/>
+  <line x1="4" y1="44" x2="60" y2="44" stroke="#D4C4B0" stroke-width="0.3"/>
+  <line x1="4" y1="52" x2="60" y2="52" stroke="#D4C4B0" stroke-width="0.3"/>
+</svg>
